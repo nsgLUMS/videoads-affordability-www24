@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10680861.svg)](https://doi.org/10.5281/zenodo.10680861)
+
 # Uncovering the Hidden Data Costs of Mobile YouTube Video Ads
 
 This file provides essential information about the source code used in the research paper. 
