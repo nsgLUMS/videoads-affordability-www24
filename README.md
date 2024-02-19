@@ -4,7 +4,7 @@ This file provides essential information about the source code used in the resea
 
 Here's a holistic tree directory structure of the repository to help you navigate the source code:
 
-## Directory Structure
+## Directory Structure & File Descriptions  
 
 ```txt
 .
