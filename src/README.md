@@ -18,7 +18,7 @@ The `src` directory contains the following scripts:
 - `get_res.py`: Updates the raw data files with a given video's (main-video and ad) resolution that was captured by `S2.py` during data retrieval phase.
 - `make-csv-nontrending.sh`: Runs the `cleanup.py`, `add_time.py`, `get_res.py`, and `get_bytes.py` file sequentially to facilitate the CSV generation process for non-trending videos of a given country.
 - `make-csv-trending.csv`: Runs the `cleanup.py`, `add_time.py`, `get_res.py`, and `get_bytes.py` file sequentially to facilitate the CSV generation process for trending videos of a given country.
-- `make-csv.ipynb`: Reads the raw data files sequentially and generates the final CSV file. For further information, navigate to any CSV data file given. Click [here](data/developed/canada/CanadaNonTrending.csv) to access the data file.
+- `make-csv.ipynb`: Reads the raw data files sequentially and generates the final CSV file. For further information, navigate to any CSV data file given. Click [here](../data/developed/canada/CanadaNonTrending.csv) to access the data file of non-trending videos streamed using Canada's VPN.
 -  `res.js`: Manipulates the DOM to configure the resolution of a given video manually on the mobile web version of YouTube (`m.youtube.com`).
 -  `trending_categories.txt`: The 4 main trending categories on YouTube's homepage. 
 
