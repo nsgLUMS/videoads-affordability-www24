@@ -1,9 +1,18 @@
+/**
+ * Sleeps for a specified amount of time.
+ * @param {number} ms - The number of milliseconds to sleep.
+ * @returns {Promise<void>} - A promise that resolves after the specified time.
+ */
 const sleep = function (ms) {
   return new Promise((r) => {
     setTimeout(r, ms);
   });
 };
 
+/**
+ * Waits for the video element to be available in the document.
+ * @returns {Promise<void>} A promise that resolves when the video element is found.
+ */
 const waitForVideo = async function () {
   let video = document.querySelector("video");
   while (!video) {
@@ -13,6 +22,11 @@ const waitForVideo = async function () {
   }
 };
 
+/**
+ * Sets the quality of the video.
+ * @param {string} quality - The desired quality of the video.
+ * @returns {Promise<string>} - A promise that resolves to "exit" if the size of available resolutions is less than or equal to 0.
+ */
 const setQuality = async function (quality) {
   await waitForVideo();
   await sleep(1000);
